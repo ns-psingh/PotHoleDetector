@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.premal2.potholedetector.Detection">
+
+    <TextView
+        android:id="@+id/xc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/yc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/xc"
+        android:layout_below="@+id/xc"
+        android:layout_marginTop="91dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/zc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/yc"
+        android:layout_below="@+id/yc"
+        android:layout_marginTop="72dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/zc"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="83dp"
+        android:text="No Acceleration" />
+</RelativeLayout>

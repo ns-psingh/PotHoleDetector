@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1012976333579",
+    "firebase_url": "https://pothole-detector-f09a8.firebaseio.com",
+    "project_id": "pothole-detector-f09a8",
+    "storage_bucket": "pothole-detector-f09a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012976333579:android:0115ad11aaf578a1",
+        "android_client_info": {
+          "package_name": "com.example.premal2.potholedetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012976333579-n6ncqhhk9um7f10hh31tmovak0ep7u5u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.premal2.potholedetector",
+            "certificate_hash": "25493ec25f65db75c2cb38f66b6eb6282d4ce4da"
+          }
+        },
+        {
+          "client_id": "1012976333579-dpa5r01tbnm1hds71phedn9f89t8qvvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiZQjGOyzimVCbX_85UB43RUhfMc09CRA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012976333579-dpa5r01tbnm1hds71phedn9f89t8qvvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

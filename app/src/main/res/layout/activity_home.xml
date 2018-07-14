@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.premal2.potholedetector.HomeActivity">
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:text="LOGOUT" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="18dp"
+        android:text="Welcome User to PotHole Detector. Please Select a lanuage to proceed" />
+
+    <Button
+        android:id="@+id/englishbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/email"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="16dp"
+        android:text="english" />
+
+    <Button
+        android:id="@+id/hindibtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/englishbtn"
+        android:layout_centerHorizontal="true"
+        android:text="हिंदी" />
+
+    <Button
+        android:id="@+id/gujratibtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/hindibtn"
+        android:layout_marginEnd="26dp"
+        android:text=" ગુજરાતી" />
+
+    <Button
+        android:id="@+id/punjabibtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/englishbtn"
+        android:layout_below="@+id/englishbtn"
+        android:layout_marginTop="27dp"
+        android:text=" ਪੰਜਾਬੀ" />
+
+    <Button
+        android:id="@+id/marathibtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/hindibtn"
+        android:layout_alignTop="@+id/punjabibtn"
+        android:text=" मराठी" />
+
+    <Button
+        android:id="@+id/bengalibtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/gujratibtn"
+        android:layout_alignTop="@+id/marathibtn"
+        android:text="বাংলা" />
+
+    <Button
+        android:id="@+id/telugubtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/punjabibtn"
+        android:layout_below="@+id/punjabibtn"
+        android:layout_marginTop="24dp"
+        android:text="తెలుగు" />
+
+    <Button
+        android:id="@+id/kannadabtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/telugubtn"
+        android:layout_alignEnd="@+id/marathibtn"
+        android:text="ಕನ್ನಡ" />
+
+    <Button
+        android:id="@+id/tamilbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/kannadabtn"
+        android:layout_alignStart="@+id/bengalibtn"
+        android:text="தமிழ்" />
+
+    <Button
+        android:id="@+id/malayalambtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/kannadabtn"
+        android:layout_below="@+id/kannadabtn"
+        android:layout_marginTop="26dp"
+        android:text=" മലയാളം" />
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PotHole Detector</string>
+    <string name="title_activity_detection">Detection</string>
+</resources>
