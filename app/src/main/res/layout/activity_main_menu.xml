@@ -17,7 +17,7 @@
         android:text="start detection" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/retrieve"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/detectionbtn"
@@ -29,7 +29,7 @@
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/button2"
+        android:layout_alignStart="@+id/retrieve"
         android:layout_centerVertical="true"
         android:text="profile" />
 
